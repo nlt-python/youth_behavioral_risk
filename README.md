@@ -89,7 +89,24 @@ There were slightly more female than male students (approximately 12000 to 10000
 
 Pairwise correlation of the dataset shows there may be a correlation between the group of features in the lower right corner of the heatmap. These features include being cyber bullied, using electronic vapor products and the age in which the youh first used marijuana.
 
-
+*** PLACEHOLDER ***
 <p align="center">
   <img src="images/corr_heat_map.png">
 </p>
+
+## Models
+
+A classifier was built using machine learning techniques and evaluated according to its precision, recall, receiver operating characteristics and a confusion matrix. 
+
+Models to predict the probability a youth 'ever considered suicide' in the last year were made using logistic regression, k-nearest neighbors, naive bayes, random forest classification, gradient boost classification and ada boost classification. About 14 % of the respondents answered Yes to target variable, 'ever considered suicide', suggesting class imbalance exists in the dataset.
+
+
+*** PLACEHOLDER *** ADD METRICS TABLE WITH MEH DATA
+
+DISCUSS FEATURE ENGINEERING, TECHNIQUES TO CONSIDER CLASS IMBALANCE
+
+ADD METRICS TABLE WITH SLIGHTLY LESS MEH DATA. DISCUSS IMPROVEMENTS. COMPARE MODELS
+
+ADD LINK TO WEBSITE!!!!!!!!  Need to finish making it first.
+
+
