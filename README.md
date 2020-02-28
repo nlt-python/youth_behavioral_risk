@@ -1,5 +1,7 @@
 # Predicting Risk of Depression in Youth
-![***IMAGE TBD, PLACEHOLDER FOR NOW***](images/smiley.png)
+<p align="center">
+  <src="images/smiley.png">
+</p>
 
 
 
