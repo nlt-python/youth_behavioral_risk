@@ -1,8 +1,7 @@
 # Predicting Risk of Depression in Youth
 <p align="center">
-  <src="https://github.com/nlt-python/youth_behavioral_risk/blob/master/images/smiley.png">
+  <img src="https://github.com/nlt-python/youth_behavioral_risk/blob/master/images/smiley.png">
 </p>
-
 
 
 ## Motivation and Objective:
