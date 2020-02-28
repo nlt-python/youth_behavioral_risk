@@ -94,12 +94,15 @@ Pairwise correlation of the dataset shows there may be a correlation between the
   <img src="images/corr_heat_map.png">
 </p>
 
-## Models
+## Models:
 
 A classifier was built using machine learning techniques and evaluated according to its precision, recall, receiver operating characteristics and a confusion matrix. 
 
 Models to predict the probability a youth 'ever considered suicide' in the last year were made using logistic regression, k-nearest neighbors, naive bayes, random forest classification, gradient boost classification and ada boost classification. About 14 % of the respondents answered Yes to target variable, 'ever considered suicide', suggesting class imbalance exists in the dataset.
 
+
+
+## TAKEAWAYS:
 
 *** PLACEHOLDER *** ADD METRICS TABLE WITH MEH DATA
 
@@ -114,3 +117,4 @@ DISCUSS FEATURE IMPORTANCE and DISCUSS ITS INCORPORATION INTO WEBSITE
 ADD LINK TO WEBSITE!!!!!!!!  Need to finish making it first.
 
 
+## Featured Notebooks/Analysis Files:
