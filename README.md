@@ -6,7 +6,7 @@
 
 ## Motivation and Objective:
 
-This project used machine learning models to predict youth behavior, specifically risk of 'considering suicide' and  (***MAYBE... TBD, PLACEHOLDER FOR NOW***) propensity for obesity as a function of various youth characteristics and other behavior. Models were derived from responses provided to the CDC survey on Youth Risk Behavior (YRBS). An interactive website was created using the best performing model to provide awareness on the topic to youth and their parents.
+This project used machine learning models to predict youth behavior, specifically risk of 'considering suicide' and  (***MAYBE... TBD, PLACEHOLDER FOR NOW***) propensity for obesity as a function of various youth characteristics and other behavior. Models were derived from responses provided to a cross-sectional CDC survey on Youth Risk Behavior (YRBS). An interactive website was created using the best performing model to provide awareness on the topic to youth and their parents.
 
 
 
@@ -73,3 +73,23 @@ The data contained a number of issues:
 
 
 Simple correlations and visualizations were made to gain a cursory understanding of the data.
+
+<p align="center">
+  <img src="images/gender_race.png">
+</p>
+
+
+There were slightly more female than male students (approximately 12000 to 10000, respectively) and there are more youths identifying as 'Hispanic/Latino' than 'Black' and 'White' identifying students combined. While students were equally distributed amongst the 9th, 10th, 11th and 12th grades, most of the students were between 15 to 17 years of age.
+
+
+<p align="center">
+  <img src="images/age_grade.png">
+</p>
+
+
+Pairwise correlation of the dataset shows there may be a correlation between the group of features in the lower right corner of the heatmap. These features include being cyber bullied, using electronic vapor products and the age in which the youh first used marijuana.
+
+
+<p align="center">
+  <img src="images/corr_heat_map.png">
+</p>
