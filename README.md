@@ -1,6 +1,6 @@
 # Predicting Risk of Depression in Youth
 <p align="center">
-  <src="images/smiley.png">
+  <src="https://github.com/nlt-python/youth_behavioral_risk/blob/master/images/smiley.png">
 </p>
 
 
