@@ -1,11 +1,11 @@
 # Predicting Risk of Depression in Youth
-![***IMAGE TBD, PLACEHOLDER***](images/smiles.png)
+![***IMAGE TBD, PLACEHOLDER FOR NOW***](images/smiley.png)
 
 
 
 ## Motivation and Objective:
 
-This project used machine learning models to predict youth behavior, specifically risk of 'considering suicide' and  (***MAYBE***) propensity for obesity as a function of various youth characteristics and other behavior. Models were derived from responses provided to the CDC survey on Youth Risk Behavior (YRBS). An interactive website was created using the best performing model to provide awareness on the topic to youth and their parents.
+This project used machine learning models to predict youth behavior, specifically risk of 'considering suicide' and  (***MAYBE... TBD, PLACEHOLDER FOR NOW***) propensity for obesity as a function of various youth characteristics and other behavior. Models were derived from responses provided to the CDC survey on Youth Risk Behavior (YRBS). An interactive website was created using the best performing model to provide awareness on the topic to youth and their parents.
 
 
 
