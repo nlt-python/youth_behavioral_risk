@@ -94,7 +94,7 @@ Taking a closer look at the features shows that cyber-bullying is significant in
 </p>
 
 
-A confusion matrix was generated from the logistic regression model. While the number of true positives (lower-right) and true negatives (upper-left) showed promise, the large number of false negatives are a cause for concern as this model should not predict youths at risk for depression as healthy since these are the youths that need assistance.
+A confusion matrix was generated from the logistic regression model. While the number of true positives (317) and true negatives (1671) showed promise, the large number of false negatives are a cause for concern as this model should not predict youths at risk for depression as healthy since these are the youths that need assistance.
 
 
 
@@ -125,6 +125,6 @@ WEBSITE COMING IN THE FUTURE!
 - src/org_mods.py: file containing functions to execute various statistical and machine learning models
 - src/predictions.py: file to be used with upcoming website to predict risk for depression
 
-- notebook/nation_features.ipynb: jupyter notebook containing images shown in ReadME and more... still under-construction. The notebook loaded is not the finished product.
+- notebook/nation_features.ipynb: jupyter notebook containing images shown in ReadME and more... still under-construction. The notebook loaded on the repo is not the finished product.
 
 
