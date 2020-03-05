@@ -58,10 +58,7 @@ A classifier was built using machine learning techniques and evaluated according
 Models to predict the probability a youth was 'sad' for more than two weeks in the last year were made using logistic regression, k-nearest neighbors, random forest classification, gradient boost classification and ada boost classification.  Hyperparameter tuning with 5- and 10-fold cross validation to optimize the random forest and gradient boosting models. 
 
 
-## TAKEAWAYS:
-
-
-COMPARE METRICS MODELS
+## Takeaways:
 
 
 <p align="center">
@@ -104,7 +101,7 @@ A confusion matrix was generated from the logistic regression model. While the n
 
 
 
-## GOING FORWARD:
+## Going Forward:
 
 The model can be improved upon to take into account the minor class imbalance in the data. Also, decreasing the number of false negatives is necessary.
 
