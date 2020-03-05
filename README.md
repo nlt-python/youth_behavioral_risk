@@ -75,7 +75,7 @@ COMPARE MODELS
 
 
 <p align="center">
-  <img src="images/roc.PNG">
+  <img width="469.5" height="292.5" src="images/roc.PNG">
 </p>
 
 
@@ -86,7 +86,7 @@ COMPARE MODELS
 
 
 <p align="center">
-  <img src="images/features.PNG">
+  <img width="522" height="281.5" src="images/features.PNG">
 </p>
 
 
@@ -97,7 +97,7 @@ COMPARE MODELS
 
 
 <p align="center">
-  <img src="images/confusion_matrix.PNG">
+  <img width="287.5" height="247" src="images/confusion_matrix.PNG">
 </p>
 
 
@@ -107,7 +107,7 @@ FINISH MAKING WEBSITE
 
 
 <p align="center">
-  <img src="images/sample_1.png">
+  <img width="960" height="529" src="images/sample_1.png">
 </p>
 
 
