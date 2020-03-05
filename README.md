@@ -16,7 +16,7 @@ The CDC's biennial survey on youth risk behavior began in 1991 on the national, 
 
 The more than 100 questions are categorized into student demographics and areas of risk including, but not limited to Unintentional Injuries and Violence, Electronic Vapor Product Use, Alcohol and Other Drug Use, Dietary Behaviors and Physical Inactivity.
 
-The target is the binary response to question:
+The target is the binary response to the question:
 
 “During the past 12 months, did you ever feel so sad or hopeless almost every day for two weeks or more in a row that you stopped doing some usual activities?”
 
@@ -65,7 +65,7 @@ COMPARE METRICS MODELS
 
 
 <p align="center">
-  <img width="485" height="540" s width="626" height="390"rc="images/metrics_1.PNG">
+  <img width="485" height="540" src="images/metrics_1.PNG">
 </p>
 
 
@@ -86,7 +86,7 @@ Of the five classifiers, k-nearest neighbors performs the worst with an AUC of 0
 </p>
 
 
-Taking a closer look at the features shows that cyber-bullying is significant in determining risk of depression. To a lesser degree, gender and use of prescription pain medication are also significant. The appearance of oral_health in the features graph below is consistent with students with depression experiencing a decline in oral health or personal hygiene (Little JW. Dental implications of mood disorders. Gen Dent. 2004;52(5):442–450). In contrast, the presence of drink_fruit, was not expected.  
+Taking a closer look at the features shows that cyber-bullying is significant in determining risk of depression. To a lesser degree, gender and use of prescription pain medication are also significant. The appearance of oral_health in the features graph below is consistent with students with depression experiencing a decline in oral health or personal hygiene (Little JW. Dental implications of mood disorders. Gen Dent. 2004; 52(5): 442–450). In contrast, the presence of drink_fruit, was not expected.  
 
 
 <p align="center">
@@ -94,7 +94,7 @@ Taking a closer look at the features shows that cyber-bullying is significant in
 </p>
 
 
-A confusion matrix was generated from the logistic regression model. While the number of true positives (lower-right) and true negatives (upper-left) showed promise, the large number of false negatives are a cause for concern as this model should not predict youths at risk for depression as healthy.
+A confusion matrix was generated from the logistic regression model. While the number of true positives (lower-right) and true negatives (upper-left) showed promise, the large number of false negatives are a cause for concern as this model should not predict youths at risk for depression as healthy since these are the youths that need assistance.
 
 
 
@@ -108,7 +108,7 @@ A confusion matrix was generated from the logistic regression model. While the n
 
 The model can be improved upon to take into account the minor class imbalance in the data. Also, decreasing the number of false negatives is necessary.
 
-Creating an interactive website where a concerned parent or youth can gain insight into their risk for depression is 
+I am also interested in creating an interactive website where a concerned parent or youth can gain insight into their risk for depression by answering a series of questions on a web form. A mockup of the website is shown below.
 
 
 
@@ -117,7 +117,14 @@ Creating an interactive website where a concerned parent or youth can gain insig
 </p>
 
 
-ADD LINK TO WEBSITE!
+WEBSITE COMING IN THE FUTURE!
 
 
 ## Featured Notebooks/Analysis Files:
+- src/helpers.py: file containing functions for data wrangling
+- src/org_mods.py: file containing functions to execute various statistical and machine learning models
+- src/predictions.py: file to be used with upcoming website to predict risk for depression
+
+- notebook/nation_features.ipynb: jupyter notebook containing images shown in ReadME and more... still under-construction. The notebook loaded is not the finished product.
+
+
