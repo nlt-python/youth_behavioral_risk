@@ -75,7 +75,7 @@ COMPARE MODELS
 
 
 <p align="center">
-  <img src="images/roc.png">
+  <img src="images/roc.PNG">
 </p>
 
 
@@ -86,7 +86,7 @@ COMPARE MODELS
 
 
 <p align="center">
-  <img src="images/features.png">
+  <img src="images/features.PNG">
 </p>
 
 
@@ -97,7 +97,7 @@ COMPARE MODELS
 
 
 <p align="center">
-  <img src="images/confusion_matrix.png">
+  <img src="images/confusion_matrix.PNG">
 </p>
 
 
