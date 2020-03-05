@@ -61,11 +61,11 @@ Models to predict the probability a youth was 'sad' for more than two weeks in t
 ## TAKEAWAYS:
 
 
-COMPARE MODELS
+COMPARE METRICS MODELS
 
 
 <p align="center">
-  <img src="images/metrics_1.PNG">
+  <img width="485" height="540" s width="626" height="390"rc="images/metrics_1.PNG">
 </p>
 
 
@@ -86,8 +86,7 @@ Of the five classifiers, k-nearest neighbors performs the worst with an AUC of 0
 </p>
 
 
-Taking a closer look at the features shows that cyber-bullied
-
+Taking a closer look at the features shows that cyber-bullying is significant in determining risk of depression. To a lesser degree, gender and use of prescription pain medication are also significant. The appearance of oral_health in the features graph below is consistent with students with depression experiencing a decline in oral health or personal hygiene (Little JW. Dental implications of mood disorders. Gen Dent. 2004;52(5):442–450). In contrast, the presence of drink_fruit, was not expected.  
 
 
 <p align="center">
@@ -95,10 +94,8 @@ Taking a closer look at the features shows that cyber-bullied
 </p>
 
 
+A confusion matrix was generated from the logistic regression model. While the number of true positives (lower-right) and true negatives (upper-left) showed promise, the large number of false negatives are a cause for concern as this model should not predict youths at risk for depression as healthy.
 
-
-
-COMPARE MODELS
 
 
 <p align="center">
@@ -106,9 +103,13 @@ COMPARE MODELS
 </p>
 
 
-DISCUSS FEATURE IMPORTANCE and DISCUSS ITS INCORPORATION INTO WEBSITE
 
-FINISH MAKING WEBSITE
+## GOING FORWARD:
+
+The model can be improved upon to take into account the minor class imbalance in the data. Also, decreasing the number of false negatives is necessary.
+
+Creating an interactive website where a concerned parent or youth can gain insight into their risk for depression is 
+
 
 
 <p align="center">
