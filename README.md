@@ -55,7 +55,7 @@ Finally, the majority of the students in this subset of the survey ranged in age
 
 A classifier was built using machine learning techniques and evaluated according to its precision, recall, receiver operating characteristics and a confusion matrix to assess false negatives.
 
-Models to predict the probability a youth was 'sad' for more than two weeks in the last year were made using logistic regression, k-nearest neighbors, random forest classification, gradient boost classification and ada boost classification.
+Models to predict the probability a youth was 'sad' for more than two weeks in the last year were made using logistic regression, k-nearest neighbors, random forest classification, gradient boost classification and ada boost classification.  Hyperparameter tuning with 5- and 10-fold cross validation to optimize the random forest and gradient boosting models. 
 
 
 ## TAKEAWAYS:
@@ -65,39 +65,44 @@ COMPARE MODELS
 
 
 <p align="center">
-  <img src="images/ttl_metrics.png">
+  <img src="images/metrics_1.PNG">
 </p>
 
 
-ADD IMPROVED METRICS TABLE USING BEST MODEL. DISCUSS ADJUSTMENTS TO MAKE IMPROVEMENTS. 
+
+A receiver operating characteristics (ROC) curve, where true positive rates are plotted on the y-axis and false positive rates are plotted on the x-axis, was generated for all five models considered in this study. The shape of the curve for all models is consistent with what is expected for real-world binary classifiers.
+
+To measure the performance of each classifier, areas under the curve (AUC) were calculated.
+
+- Models with an AUC of 1.0 are always correct. 
+- Models with an AUC of 0.0 are always incorrect.
+- Models with an AUC of 0.5 have a predictive ability equivalent to random guessing.
+
+Of the five classifiers, k-nearest neighbors performs the worst with an AUC of 0.6. The logistic regression, random forest and ada boost classifiers all have an AUC of 0.73. Of these three models, the coefficients calculated with logistic regression can be used to explain the significance of the features (independent variables) used in the model.
+
+
+<p align="center">
+  <img width="626" height="390" src="images/roc.PNG">
+</p>
+
+
+Taking a closer look at the features shows that cyber-bullied
+
+
+
+<p align="center">
+  <img width="696" height="375.3" src="images/features.PNG">
+</p>
+
+
+
+
 
 COMPARE MODELS
 
 
 <p align="center">
-  <img width="469.5" height="292.5" src="images/roc.PNG">
-</p>
-
-
-
-
-
-COMPARE MODELS
-
-
-<p align="center">
-  <img width="522" height="281.5" src="images/features.PNG">
-</p>
-
-
-
-
-
-COMPARE MODELS
-
-
-<p align="center">
-  <img width="287.5" height="247" src="images/confusion_matrix.PNG">
+  <img width="383.3" height="329.3" src="images/confusion_matrix.PNG">
 </p>
 
 
